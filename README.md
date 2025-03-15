@@ -1,4 +1,4 @@
-# # Library Management API
+# Library Management API
 
 This project is a simple Library Management API built using Java with Javalin as the web framework and H2 as an in-memory database. The API allows basic CRUD operations for managing authors and books in a library.
 
@@ -16,15 +16,14 @@ This project is a simple Library Management API built using Java with Javalin as
 - CRUD operations for Authors and Books
 - In-memory H2 database for testing
 - Clean separation between layers (Controller, Service, DAO)
-- Singleton pattern for database connection management
 - Pre-populated sample data for authors and books
 
 ## Technologies Used
 
 - **Java**: Core programming language
+- **JDBC**: Database operations
 - **Javalin**: Lightweight web framework for Java
 - **H2 Database**: In-memory database for quick testing and development
-- **Jackson**: Used for JSON serialization and deserialization
 - **Maven**: Build automation and dependency management
 
 ## Setup and Running the Project

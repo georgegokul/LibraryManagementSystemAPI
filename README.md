@@ -13,7 +13,7 @@ This project is a simple Library Management API built using Java with Javalin as
 
 ## Features
 
-- CRUD operations for Authors and Books
+- CRUD operations for Books by authors.
 - In-memory H2 database for testing
 - Clean separation between layers (Controller, Service, DAO)
 - Pre-populated sample data for authors and books
